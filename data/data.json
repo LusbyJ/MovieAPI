@@ -1,50 +1,62 @@
 {
-    "recipes": [
+    "movies": [
       {
-        "name": "scrambledEggs",
-        "ingredients": [
-          "1 tsp oil",
-          "2 eggs",
-          "salt"
+        "title": "21",
+        "cast": [
+          "Jim Sturgess",
+          "Kate Bosworth",
+          "Laurence Fishburne",
+          "Kevin Spacey"
         ],
-        "instructions": [
-          "Beat eggs with salt",
-          "Heat oil in pan",
-          "Add eggs to pan when hot",
-          "Gather eggs into curds, remove when cooked",
-          "Salt to taste and enjoy"
+        "tags": [
+          "drama",
+          "gambling"
+        ],
+        "runtime": [
+          123
+        ],
+        "format" : [
+          "BluRay"
         ]
       },
       {
-        "name": "garlicPasta",
-        "ingredients": [
-          "500mL water",
-          "100g spaghetti",
-          "25mL olive oil",
-          "4 cloves garlic",
-          "Salt"
+        "title": "Horrible_Bosses",
+        "cast": [
+          "Jason_Bateman",
+          "Charlie_Day",
+          "Jason_Sudeikis",
+          "Jennifer_Anniston",
+          "Colin_Farrel",
+          "Kevin_Spacey",
+          "Jamie_Fox"
         ],
-        "instructions": [
-          "Heat garlic in olive oil",
-          "Boil water in pot",
-          "Add pasta to boiling water",
-          "Remove pasta from water and mix with garlic olive oil",
-          "Salt to taste and enjoy"
+        "tags": [
+          "comedy",
+          "work"
+        ],
+        "runtime": [
+          106
+        ],
+        "format" : [
+          "BluRay"
         ]
       },
       {
-        "name": "chai",
-        "ingredients": [
-          "400mL water",
-          "100mL milk",
-          "5g chai masala",
-          "2 tea bags or 20 g loose tea leaves"
+        "title": "Game Night",
+        "cast": [
+          "Jason Bateman",
+          "Rachel McAdams"
         ],
-        "instructions": [
-          "Heat water until 80 C",
-          "Add milk, heat until 80 C",
-          "Add tea leaves/tea bags, chai masala; mix and steep for 3-4 minutes",
-          "Remove mixture from heat; strain and enjoy"
+        "tags": [
+          "comedy",
+          "games",
+          "mystery"
+        ],
+        "runtime" : [
+          100
+        ],
+        "format" : [
+          "BluRay"
         ]
       }
     ]
