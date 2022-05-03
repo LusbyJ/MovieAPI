@@ -1,2 +1,2 @@
 # RecipeAPI
-Small flask recipe API
+Small flask movie API
