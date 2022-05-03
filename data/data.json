@@ -1,63 +1,57 @@
 {
-    "movies": [
-      {
-        "title": "21",
-        "cast": [
-          "Jim Sturgess",
-          "Kate Bosworth",
-          "Laurence Fishburne",
-          "Kevin Spacey"
-        ],
-        "tags": [
-          "drama",
-          "gambling"
-        ],
-        "runtime": [
-          123
-        ],
-        "format" : [
-          "BluRay"
-        ]
-      },
-      {
-        "title": "Horrible_Bosses",
-        "cast": [
-          "Jason_Bateman",
-          "Charlie_Day",
-          "Jason_Sudeikis",
-          "Jennifer_Anniston",
-          "Colin_Farrel",
-          "Kevin_Spacey",
-          "Jamie_Fox"
-        ],
-        "tags": [
-          "comedy",
-          "work"
-        ],
-        "runtime": [
-          106
-        ],
-        "format" : [
-          "BluRay"
-        ]
-      },
-      {
-        "title": "Game Night",
-        "cast": [
-          "Jason Bateman",
-          "Rachel McAdams"
-        ],
-        "tags": [
-          "comedy",
-          "games",
-          "mystery"
-        ],
-        "runtime" : [
-          100
-        ],
-        "format" : [
-          "BluRay"
-        ]
-      }
-    ]
-  }
+  "movies": [
+    {
+      "title": "21",
+      "cast": [
+        "Jim Sturgess",
+        "Kate Bosworth",
+        "Laurence Fishburne",
+        "Kevin Spacey"
+      ],
+      "tags": [
+        "drama",
+        "gambling"
+      ],
+      "runtime": 123,
+      "format" : [
+        "BluRay"
+      ]
+    },
+    {
+      "title": "Horrible_Bosses",
+      "cast": [
+        "Jason_Bateman",
+        "Charlie_Day",
+        "Jason_Sudeikis",
+        "Jennifer_Anniston",
+        "Colin_Farrel",
+        "Kevin_Spacey",
+        "Jamie_Fox"
+      ],
+      "tags": [
+        "comedy",
+        "work"
+      ],
+      "runtime": 106,
+      "format" : [
+        "BluRay"
+      ]
+    },
+    {
+      "title": "Game_Night",
+      "cast": [
+        "Jason Bateman",
+        "Rachel McAdams"
+      ],
+      "tags": [
+        "comedy",
+        "games",
+        "mystery"
+      ],
+      "runtime" : 100,
+      "format" : [
+        "BluRay"
+      ]
+    }     
+  ]
+}

@@ -7,7 +7,6 @@ from flask import render_template
 import json, os
 
 
-
 #defualt  
 @app.route("/")
 def home():  
@@ -58,7 +57,29 @@ def get_movies(title):
             }
     return {"Details" : details}
 
+# Get movies with durations less than specified query duration
+#example - '/query?duration=120' will get movies less than 120 minutes long
 @app.route("/query")
 def query():
-    return "<h1 style='color: red'>Query Recieved</h1?", 200
+    args = request.args
+    if "duration" in args:
+        duration = args.get("duration")
+
+    json_url = os.path.join("data","data.json")
+    data_json = json.load(open(json_url))
+    data = data_json["movies"]
+    details = {}
+
+    for x in data:
+        runtime = x.get("runtime")
+
+        if int(runtime) <= int(duration):
+            details[x.get("title")] = x.get("runtime")
+                   
+    return {"Movies" : details}
+    
+
+   
+
+
 
